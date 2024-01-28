@@ -1,52 +1,37 @@
-# Introduction
+# 介绍
 
-**Welcome to the official, although incomplete, Mindustry Logic manual.**
+**欢迎来到官方的、虽然不完整的Mindustry逻辑手册。**
 
-This is both a guide and a reference for Mindustry Logic. It contains both basic and advanced information relating to the language. This manual is designed to be comprehensive to all levels of programming, and we're trying to make it understood by people who don't even know what code is.
 
-## What is Mindustry Logic?
+这是 Mindustry Logic 的指南和参考。它包含了与该语言相关的各类信息。本手册旨帮助不同编程水平的玩家，并且努力使其被从未接触过代码编写的玩家所理解。
 
-Mindustry Logic *(mlog)* is a scripting language added in v6 for the purpose of introducing more advanced automation and strategy into the game. It is heavily inspired by Assembly languages, where there is only one instruction or operation at a time. This is quite unlike more popular languages such as Python, Java, or C++, where you have convenient ways to create one-liners, functions, conditional statements, loops, and classes.
+## 什么是 Mindustry Logic?
 
-The current capabilities of the language are:
+Mindustry Logic **(mlog)** 是在 v6 版本中添加的一种脚本语言，旨在为游戏引入更高级的自动化策略。和 Python 、 Java 或 C++ 等当下流行的语言不同， Mindustry Logic 更类似于汇编语言, 在每个执行周期内依次逐行执行给定的指令或操作。
 
-* Getting information about blocks and units, including the player
-* Controlling buildings and turrets
-* Controlling and writing/reading information to/from units
-* Displaying shapes and colors in displays
-* Outputting text through message blocks
-* Reading and writing information to and from memory cells
-* Reading player input through switch blocks
-* Mathematical operations, both unary and binary
-* And much more!
-  
-## What do I need before I get into Mindustry Logic?
+目前语言的功能包括：
 
-A good thing to have beforehand is some programming experience, at least in regards to concepts and theory. This can help with understanding some of the techniques and concepts of this language. But most importantly, you need *patience and an open mind*, since a lot can change between updates and many things may seem daunting and complex until you try them out.
+* 获取有关方块和单位（包括玩家）的信息
+* 控制建筑物和炮塔
+* 控制并读写单位的信息
+* 在显示器上显示形状和颜色
+* 通过消息方块输出文本
+* 读写内存单元中的信息
+* 通过开关方块读取玩家输入
+* 进行一元和二元数学运算
+* 其他开发中的功能(:D)！
 
-You might also want to have Google on hand if you don't understand specific programming terms used here.
+## 在我了解 Mindustry Logic 前我应该作些什么?
 
-## Why is everyone rude in #logic on the Discord?
+学习一些基础的编程理论固然帮助你理解这种语言的一些技术和概念。但最重要的是，你需要有良好的心态和一些耐心，因为脚本语言的语法规范和执行逻辑在不同版本的更新之间可能会发生很多改动(悲)，许多事情在你尝试之前可能会显得复杂和令人畏惧。
 
-Most of the time it's just because the answer to your question is in very close reach, and all you need is to install this manual or read it better. All if not most of the time, all you need to do is RTFM (read this fabulous manual) thoroughly, and you will find your answer. If you're absolutely sure it isn't covered here, you are welcome to ask a question in #logic. 
 
-How to ask an effective question:
+你可能还需要在手边准备好 ~~谷歌~~ 百度，以防你不理解这里使用的特定编程术语。
 
-* First, try to figure it out with the help of this manual or **Google**. *Include what you've tried and already know.*
-* Please __**DO NOT**__ post extremely frequently asked questions such as "how do I control turret" or "how to make unit move". Again, you can find your answers here.
-* Ask in __**detail**__ so anybody who helps you has all the context they need to do so effectively.
-
-We try our best not to be rude or impolite, but questions that don't go by those standards can test our patience, especially if the solution is simple and covered by the manual. __**It's a waste of someone's time to ask them about a question that's already written clearly in the manual.**__
-
-Examples of acceptable question structure and spirit:
-
-* "Hey after reading the manual, I can't understand what exactly a double is. Can't I just use an int?"
-* "I'm having trouble with radar. It doesn't detect my player even though I'm in range of the turret. Here is my code:"
-* "Why can't I print a string and a variable properly in the same print instruction?"
-
-It's inevitable that not everybody can do that all of the time, so try your best to make your question presentable at the very least, and follow at least one of these guidelines.
+## ~~Why is everyone rude in #logic on the Discord?~~ 
+(介于 Discord 在国内的访问状况，没法科学上网的朋友们请去 Mindustry 吧发帖)
 
 # How do I get the in-game manual?
 
-There is a more comprehensive in-game manual mod that goes into detail for instructions and variables available at [DeltaNedas/rtfm](https://github.com/DeltaNedas/rtfm).
-Once installed you can access the instruction manual page by clicking the new book button in the processor UI, other pages are available in the full RTFM dialog.
+有一个更全面的游戏内手册模组，详细介绍了指令和可用变量，可以在[DeltaNedas/rtfm](https://github.com/DeltaNedas/rtfm)上找到。
+安装后，您可以通过点击处理器界面上的新书按钮来访问说明书页面，在完整的RTFM对话框中还有其他页面可供查阅。
